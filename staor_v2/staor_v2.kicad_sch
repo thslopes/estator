@@ -1,0 +1,396 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8149ba1e-37b7-49e7-aa9d-76caa63c6317")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:AC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AC"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"AC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AC_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid -0.635 3.8073)
+					(end -1.27 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 0.635 2.5427)
+					(end 1.27 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.175)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 109.22 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf32b8a-b2c8-4467-87c9-7b8cbe4c2d67")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bb43ad-16df-463c-a671-c8411472e003")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da97f0e-fd5b-4b74-ba07-9a45ebb87647")
+	)
+	(wire
+		(pts
+			(xy 109.22 59.69) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e4a1fd-9fa0-48ee-b604-ee6da5f1b07b")
+	)
+	(wire
+		(pts
+			(xy 121.92 59.69) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7fee39-d208-4d0c-a48b-4a05f62c10fa")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e139ddad-c888-4726-a171-cc1055018055")
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 109.22 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c943c09-e899-430f-beaf-d2fbef2b672e")
+		(property "Reference" "B"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c2bab68-e3ed-4143-83f4-d1365b71f1d3")
+		)
+		(instances
+			(project "staor_v2"
+				(path "/8149ba1e-37b7-49e7-aa9d-76caa63c6317"
+					(reference "B")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 95.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44157c5-7356-4e33-bb1f-e146b84edc18")
+		(property "Reference" "A"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81594e2c-6bee-411b-a507-41461cee063c")
+		)
+		(instances
+			(project "staor_v2"
+				(path "/8149ba1e-37b7-49e7-aa9d-76caa63c6317"
+					(reference "A")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 121.92 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e4aa3e-af67-451f-ac52-1722d7caed74")
+		(property "Reference" "C"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC"
+			(at 121.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ae4bcb0-3bc7-49e6-8796-c0034ef60e18")
+		)
+		(instances
+			(project "staor_v2"
+				(path "/8149ba1e-37b7-49e7-aa9d-76caa63c6317"
+					(reference "C")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
